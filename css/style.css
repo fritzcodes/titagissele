@@ -649,3 +649,80 @@ button.main_bt a {
 .carousel-control-prev-icon.main {
     background-image: url(../images/arrow-2.png);
 }
+
+
+
+/* Ensure the dropdown menu is hidden by default */
+.nav-item .dropdown-menu {
+    display: none;
+    position: absolute; /* Required for positioning */
+}
+
+/* Show the dropdown menu when hovering over the parent */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Additional styling for a better user experience */
+.nav-item.dropdown {
+    position: relative; /* Ensure the dropdown positions correctly */
+}
+
+.nav-item .dropdown-menu a {
+    padding: 10px 20px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-item .dropdown-menu a:hover {
+    background-color: #f8f9fa; /* Optional: Highlight effect */
+}
+
+.btn_main .seemore_bt {
+     font-size: 16px;
+     padding: 10px 20px;
+     background-color: #050505; /* Default background color */
+     color: #fff; /* Default text color */
+     border: none;
+     border-radius: 5px;
+     transition: transform 0.3s ease, color 0.3s ease;
+     cursor: pointer;
+ }
+
+ .btn_main .seemore_bt:hover {
+     transform: scale(1.1); /* Increase button size */
+     color: #ffeb3b; /* Brighten text color */
+ }
+
+
+ .read_bt {
+     font-size: 16px;
+     padding: 10px 20px;
+     background-color: #fafafa; /* Default background color */
+     color: #0f0f0f; /* Default text color */
+     border: none;
+     border-radius: 5px;
+     transition: transform 0.3s ease, color 0.3s ease;
+     cursor: pointer;
+ }
+
+ .read_bt:hover {
+     transform: scale(1.1); /* Increase button size */
+     color: #ffeb3b; /* Brighten text color */
+ }
+
+ .book_bt {
+     font-size: 16px;
+     padding: 10px 20px;
+     background-color: #050505; /* Default background color */
+     color: #fff; /* Default text color */
+     border: none;
+     border-radius: 5px;
+     transition: transform 0.3s ease, color 0.3s ease;
+     cursor: pointer;
+ }
+
+ .book_bt:hover {
+     transform: scale(1.1); /* Increase button size */
+     color: #ffeb3b; /* Brighten text color */
