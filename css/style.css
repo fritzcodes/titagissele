@@ -726,3 +726,21 @@ button.main_bt a {
  .book_bt:hover {
      transform: scale(1.1); /* Increase button size */
      color: #ffeb3b; /* Brighten text color */
+ }
+
+ .send_btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    
+    color: #0f0f0f; /* Default text color */
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.send_btn:hover {
+    transform: scale(1.1); /* Increase button size */
+    color: #ffeb3b; /* Brighten text color */
+}
+
